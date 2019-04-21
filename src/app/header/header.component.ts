@@ -11,8 +11,8 @@ export class HeaderComponent implements OnInit, OnDestroy {
   initialContent: String = '#Hello, World!\n\nThis is your first Angular Markdown note.' +
  'You can:\n\n* Click/Focus to edit\n\n* Click off/Blur to save\n\n*' +
  ' Add a new note  by clicking the plus sign above.\n\n* Delete this note\n\nMarkdown ' +
- 'compiled using the fantastic [angular-markdown-editable]' +
- '(http://projects.quiver.is/angular-markdown-editable/) directive.';
+ 'compiled using the fantastic [ngx-markdown]' +
+ '(https://www.npmjs.com/package/ngx-markdown) directive.';
 
  lstNote: Array<Note> = [];
 
