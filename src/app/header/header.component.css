@@ -1,0 +1,62 @@
+
+  div[contenteditable] {
+    font-size:1.2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    border:none;
+    box-shadow:none;
+    margin:0;
+    width:100%;
+    padding:10px 20px 10px;
+    min-height:300px;
+    background:#f9f9f9;
+    
+    pre, code {
+      background:#ededed;
+    }
+    
+  }
+  
+  div[contenteditable]:focus{
+    font-family: 'Source Code Pro', courier, monospace;
+     font-size:1em;
+   }
+   
+   .header {
+     margin:5px 10px 0;
+     color: chocolate;
+     display:inline-block;
+   }
+
+   .note {
+    background: #eee;
+    box-shadow:#999 1px 1px 3px;
+    margin:20px 0;
+    padding-top:20px;
+    min-height:200px;
+    width:100%;
+    display:block;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .icons-top {
+    margin-top: 15px;
+  }
+
+  .icons-right {
+    margin-right: 10px;
+  }
+  
+  .date {
+    top:0;
+    left:0; 
+    display:inline-block;
+    padding:15px;
+    font-size:0.7em;
+    font-style: italic;
+    color:black;
+  }
+
+  .float-right{
+   position: relative;
+   }
