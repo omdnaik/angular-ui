@@ -1,0 +1,6 @@
+<div> <h1 class = "header">Markdown Notes</h1>  <button type="button" class="btn btn-outline-primary icons-top icons-right float-right" (click)="add()">Add Note</button></div>
+<div class="note" *ngFor='let note of lstNote; index as i'>
+    <span class="date">{{note.createdOn| date: "EEEE dd MMMM, yyyy 'at' h:mma"}}</span>
+    <button type="button" class="btn btn-outline-danger fa-lg icons-right float-right" (click)="delete(i)">Delete</button>
+    <div class = "markdown-body" contenteditable="true" (blur)="save($event,i)" markdown ngPreserveWhitespaces >{{note.content}}</div>
+</div>
